@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  font-family: heebo;
+}
+.container {
+  width: 80%;
+  margin-inline: auto;
+}
+.header {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+.header a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29.38px;
+  color: #000000;
+  padding-top: 20px;
+}
+#main {
+  padding: 100px 0 50px 0;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-text h1 {
+  width: 470px;
+  font-weight: 700;
+  font-size: 44px;
+}
+.main-text p {
+  width: 420px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.5px;
+  margin: 30px 0;
+}
+.main-text button {
+  width: 280px;
+  height: 47px;
+  color: #fff;
+  background: #ff6464;
+  cursor: pointer;
+}
+#point {
+  background: #edf7fa;
+  padding-bottom: 40px;
+}
+.point .box {
+  width: 510px;
+  height: 255px;
+  background: #ffffff;
+  padding: 18px 10px 30px 17px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.point {
+  display: flex;
+  justify-content: space-between;
+}
+.point-top {
+  display: flex;
+  justify-content: space-between;
+  color: #21243d;
+  padding: 23px 0;
+}
+.point h1 {
+  width: 500px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 38.19px;
+}
+.point h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26.44px;
+}
+.point h3 span {
+  padding-inline: 20px;
+}
+.point p {
+  width: 368px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.5px;
+}
+.wert {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.reo {
+  padding: 40px 0 0px 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 60px;
+  cursor: pointer;
+}
+.box-1 {
+  display: flex;
+  gap: 20px;
+}
+.box-date {
+  display: flex;
+  gap: 30px;
+}
+.box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.box-text h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44.06px;
+}
+.zhi {
+  width: 560px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.5px;
+  color: #21243d;
+}
+.box-date p {
+  background: #142850;
+  color: #fff;
+  border-radius: 16px;
+  padding: 4px 9px;
+}
+.box-date h5 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #8695a4;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  gap: 35px;
+}
+.red {
+  display: flex;
+  justify-content: center;
+  line-height: 20.56px;
+  padding: 20px 0 30px 0;
+  color: #21243d;
+}
